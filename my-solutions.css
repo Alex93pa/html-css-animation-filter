@@ -1,0 +1,35 @@
+.ex-1-square:hover{
+    background-color: red;
+    transition: 3s;
+}
+
+.ex-2-square:active{
+    transition: 2s;
+    width: 100%;
+}
+
+.ex-3-square:hover{
+    transition: 2s;
+    border-radius: 50%;
+}
+
+.ex-4-square:hover{
+    transition: 2s;
+    opacity: 0;
+}
+
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    transition: 1s;
+}
+
+.ex-5-square:active{
+    transform: scale(.3);
+}
+
+.ex-6-img:hover{
+    transition: 1s;
+    filter: grayscale(1);
+}
