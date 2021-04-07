@@ -116,50 +116,58 @@
 
 @keyframes moveBorderTop2{
     0%{
-        left: 0%;
-        top: 0%;
+        top: -10px;
+        left: 10%;
     }
-    25%{
-        left: ;
-        top: ;
+    20%{
+        left: 100%;
+        top: -10px;
     }
-    50%{
-        left: 70%;
-        top: 
+    40%{
+        left: 100%;
+        top: 60px;
     }
-    75%{
-        left: ;
-        top: ;
+    70%{
+        left: -60px;
+        top: 60px;
+    }
+    90%{
+        top: -10px;
+        left: -60px;
     }
     100%{
+        top: -10px;
         left: 10%;
-        top: ;
     }
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: moveBorderBottom 2s linear;
+    animation: moveBorderBottom2 2s linear;
 }
 
 @keyframes moveBorderBottom2{
     0%{
-        left: 0%;
-        top: 0%;
+        bottom: -10px;
+        right: 20%;
     }
-    25%{
-        left: ;
-        top: ;
+    20%{
+        bottom: -10px;
+        right: 100%;
     }
-    50%{
-        left: 70%;
-        top: 
+    40%{
+        bottom: 60px;
+        right: 100%;
     }
-    75%{
-        left: ;
-        top: ;
+    70%{
+        bottom: 60px;
+        right: -60px;
+    }
+    90%{
+        bottom: -10px;
+        right: -60px;
     }
     100%{
-        left: 10%;
-        top: ;
+        bottom: -10px;
+        right: 20%;
     }
 }
